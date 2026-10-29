@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="도단의 Google 데이터 접근, 사용, 보관 및 삭제에 관한 개인정보처리방침입니다.">
+  <title>개인정보처리방침 · 도단</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="site-header"><a class="brand" href="./">도단<span>개인 업무 비서</span></a><nav aria-label="주 메뉴"><a href="./">앱 소개</a></nav></header>
+  <main id="main" class="policy">
+    <p class="eyebrow">PRIVACY POLICY</p>
+    <h1>개인정보처리방침</h1>
+    <p class="effective">시행일 2026-10-29 · 앱 도단 · 운영자 정영웅</p>
+    <section><h2>1. 대상과 사용 목적</h2><p>도단은 운영자 정영웅 본인 한 명만 본인의 Google 계정(ksilvernsd@gmail.com)을 연결하여 메일 확인, 임시보관 메일 작성, 일정 관리, 문서 조회·작성을 돕는 개인 업무 비서 앱입니다. Google 데이터는 본인이 요청한 업무를 처리하는 데 사용합니다.</p></section>
+    <section><h2>2. 접근하는 데이터와 권한</h2>
+      <dl>
+        <dt>Google 계정 및 인증정보</dt><dd>연결 계정 확인을 위한 이메일 주소와 Google API 이용을 위한 OAuth 인증정보를 처리합니다. Google 계정 비밀번호는 앱에서 수집하지 않습니다.</dd>
+        <dt>Gmail</dt><dd>메일 식별정보, 제목, 보낸 사람, 날짜, 미리보기와 본문을 조회하고, 사용자가 지정한 수신자·제목·본문으로 임시보관 메일을 작성합니다. 현재 구현은 첨부파일을 내려받지 않습니다. 요청 권한은 <code>gmail.readonly</code>와 <code>gmail.compose</code>입니다. 후자는 발송 권한도 포함하지만 현재 앱은 임시보관 메일 작성만 제공합니다.</dd>
+        <dt>Google Calendar</dt><dd>캘린더 목록과 일정의 제목, 날짜·시간, 설명, 장소 등 API가 반환하는 일정 정보를 조회하고, 요청에 따라 일정을 생성·수정·삭제합니다. 요청 권한은 <code>calendar</code>입니다.</dd>
+        <dt>Google Drive</dt><dd>파일의 이름, 식별정보, 형식, 크기, 수정 시각, 링크 등과 지원되는 문서의 내용을 조회합니다. Google 문서·슬라이드는 텍스트로, 스프레드시트는 첫 시트의 CSV로 읽으며, 요청에 따라 텍스트 파일을 생성합니다. 요청 권한은 <code>drive.readonly</code>와 <code>drive.file</code>입니다.</dd>
+      </dl>
+    </section>
+    <section><h2>3. 저장 위치와 외부 처리</h2><p>Google 연결 프로그램은 본인의 PC에서 실행됩니다. 인증정보는 해당 Windows 사용자에게 연결된 암호화 방식으로 본인의 PC에만 저장합니다. 작성한 임시보관 메일·일정·Drive 파일은 본인의 Google 계정에 저장됩니다.</p><p>Google 조회 결과는 본인이 요청한 일정 확인·등록, 임시보관 메일 작성, 파일 찾기 등의 업무를 처리하기 위해 AI 서비스 Anthropic(Claude)과 OpenAI(Codex)에 전달됩니다. 전달 대상은 작업에 사용되는 메일 정보와 본문, 일정 정보, 파일 정보와 문서 내용 등입니다.</p><p>AI 서비스에 전달된 내용의 보관·학습 여부는 각 회사의 약관과 본인 계정 설정을 따릅니다.</p><p>이 공개 안내 사이트에는 업무 처리 과정에서 조회한 Google 데이터나 인증정보를 올리지 않습니다. 사이트는 별도의 분석 스크립트, 광고, 입력 양식 또는 앱 자체 쿠키를 사용하지 않습니다. 웹 호스팅 제공자는 접속 과정의 기술정보를 자신의 개인정보처리방침에 따라 처리할 수 있습니다.</p></section>
+    <section><h2>4. 목적 외 이용과 Limited Use</h2><p>도단은 Google 데이터를 광고·판매에 사용하지 않으며, 제3절에 명시한 AI 처리 외에는 제3자에게 제공하지 않습니다.</p><p>도단은 Google API Services User Data Policy(Limited Use 요건 포함)를 준수하며, Google API로 받은 정보의 사용 및 다른 앱으로의 전송에도 이 요건을 적용합니다.</p><p>관련 기준: <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>.</p></section>
+    <section><h2>5. 보관과 삭제</h2><p>PC에 저장된 인증정보는 연결을 유지하는 동안 사용합니다. <a href="https://myaccount.google.com/connections">Google 계정의 타사 앱 연결</a>에서 앱의 접근 권한을 해제하여 이후 접근을 중단할 수 있습니다. PC에 남은 인증정보의 삭제는 운영자에게 요청할 수 있습니다.</p><p>연결 해제만으로 기존 Gmail 임시보관 메일, Calendar 일정, Drive 파일이나 저장된 대화 기록이 자동 삭제되지는 않습니다. Google에 생성한 자료는 해당 서비스에서 삭제하고, PC의 대화 기록과 내보낸 자료도 별도로 삭제해야 합니다.</p><p>Anthropic(Claude)과 OpenAI(Codex)에 전달된 내용의 보관 및 삭제는 각 회사의 약관과 본인 계정 설정에 따릅니다. 각 서비스의 계정 내 삭제 기능 또는 해당 서비스의 문의 절차를 이용하며, 앱 관련 문의 및 삭제 요청은 <a href="mailto:ksilvernsd@gmail.com">ksilvernsd@gmail.com</a>으로 접수합니다.</p></section>
+    <section><h2>6. 변경과 문의</h2><p>데이터 처리 방식이 바뀌면 이 방침을 갱신하고, 새로운 사용이나 전송에 필요한 동의를 먼저 받습니다.</p><p>운영자: 정영웅<br>문의 및 삭제 요청: <a href="mailto:ksilvernsd@gmail.com">ksilvernsd@gmail.com</a></p></section>
+  </main>
+  <footer><p>도단 · 운영자 정영웅</p><p><a href="mailto:ksilvernsd@gmail.com">ksilvernsd@gmail.com</a></p><a href="./">앱 소개로 돌아가기</a></footer>
+</body>
+</html>
